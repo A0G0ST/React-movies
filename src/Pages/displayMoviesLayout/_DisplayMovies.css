@@ -1,0 +1,73 @@
+.display-header {
+  text-align: center;
+}
+.movies {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.movie-item {
+  margin: 0.5rem 1rem;
+  padding: 0rem 3rem;
+  flex: 1 1 0;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.movie-user {
+  color: black;
+  text-transform: uppercase;
+}
+
+.more {
+  height: 2rem;
+  width: 10rem;
+  background-color: burlywood;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 0.2rem 0.7rem;
+  margin: 0.2rem;
+  border: none;
+  text-align: center;
+}
+
+.remove {
+  cursor: pointer;
+  background-color: grey;
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+.addnew {
+  cursor: pointer;
+  background-color: grey;
+  height: 2rem;
+  width: 10rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+.addnew:hover {
+  background-color: burlywood;
+  border: solid black 2px;
+}
+.more:hover {
+  border: solid grey 2px;
+}
+
+.remove:hover {
+  background-color: red;
+  border: none;
+}

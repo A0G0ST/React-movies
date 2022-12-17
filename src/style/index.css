@@ -1,0 +1,8 @@
+@import "./App.css";
+@import "../Components/header/_header.css";
+@import "../Components/modal/_Modal.css";
+@import "../Components/signupLogin/_signup.css";
+@import "../Components/signupLogin/_login.css";
+@import "../Pages/newMovieLayout/_newMovie.css";
+@import "../Pages/displayMoviesLayout/_DisplayMovies.css";
+@import "../Pages/moviePageLayout/_moviePage.css";

@@ -1,0 +1,47 @@
+.newMovie {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.newMovie-header {
+  color: black;
+}
+
+.newMovie-input {
+  height: 2rem;
+  width: 10rem;
+  background-color: burlywood;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 0.2rem 0.7rem;
+  margin: 0.2rem;
+  border: none;
+  text-align: center;
+}
+
+.newMovie-btn {
+  cursor: pointer;
+  background-color: grey;
+  height: 2.5rem;
+  width: 6rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+.newMovie-btn:hover {
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+}
+::placeholder {
+  color: black;
+}
+.newMovie-img {
+  margin-top: 3rem;
+}

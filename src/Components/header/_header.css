@@ -1,0 +1,29 @@
+.grit-header {
+  background-color: black;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin-left: 30px;
+  width: 12vw;
+  height: 13vh;
+}
+.gritlogo {
+  position: absolute;
+  left: 0;
+}
+
+.a {
+  color: white;
+  margin-right: 2rem;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+
+.a:hover {
+  border: 2px solid white;
+}

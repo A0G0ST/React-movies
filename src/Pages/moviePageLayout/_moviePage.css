@@ -1,0 +1,26 @@
+.showmore {
+  color: black;
+  text-align: center;
+}
+
+.showmore-img {
+  width: 20vw;
+  height: 30vh;
+}
+.goBack {
+  cursor: pointer;
+  background-color: grey;
+  height: 2rem;
+  width: 10rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+.goBack:hover {
+  background-color: burlywood;
+  border: solid black 2px;
+}
